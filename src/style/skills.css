@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: #f5f5f5;
+    --hover-color: #12f7ff;
+    --bg-color: #250821;
+    --secon-bg-color: #292e33;
+    --big-font: 2.5rem;
+    --normal-font-shadow: 0 0 2.5rem #12f7ff;
+    --h2-font: 3rem;
+    --font-neon-text-shadow: 0 0 10px rgba(18, 247, 225, 0.3),
+        0 0 20px rgba(18, 247, 225, 0.3),
+        0 0 30px rgba(18, 247, 225, 0.3),
+        0 0 40px rgba(18, 247, 225, 0.3),
+        0 0 70px rgba(18, 247, 225, 0.3),
+        0 0 80px rgba(18, 247, 225, 0.3),
+        0 0 100px rgba(18, 247, 225, 0.3),
+        0 0 150px rgba(18, 247, 225, 0.3);
+}
+
+body {
+    /* overflow: hidden; */
+    font-family: "popins", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.skills{
+    background: var(--secon-bg-color);
+    width: 1600px;
+
+    padding:10px 15%;
+
+}
+
+
+
+
+.text{
+    text-align: center;
+font-size: 25px;
+}
+
+.skill-left h3{
+    font-size: 35px;
+}
+/* .skill-main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:30px;
+    grid-column-gap:50px;
+    justify-content: space-around;
+ } */
+
+.skill-bar {
+    margin-bottom: 2.3rem;
+    margin-top: 40px;
+}
+
+.skill-main h3 {
+    margin-bottom: 1rem;
+    font-size: var(--norma-font-shadow);
+    text-align: center;
+
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8 5px;
+
+}
+
+.skill-left .skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: var(--hover-color);
+    border-radius: 25px;
+    box-shadow: var(--font-neon-text-shadow);
+}
+
+
+.skill-bar .bar .html {
+    width: 80%;
+    animation: html 2s;
+}
+
+.skill-bar .bar .javascript {
+    width: 60%;
+    animation: javascript 3s;
+}
+
+.skill-bar .bar .css {
+    width: 70%;
+    animation: css 4s;
+}
+
+.skill-bar .bar .figma {
+    width: 90%;
+    animation: figma 5s;
+}
+
+.skill-bar .bar .communication {
+    width: 70%;
+    animation: communication 5s;
+}
+
+
+.skill-bar .bar .creativity {
+    width: 60%;
+    animation: creativity 5s;
+}
+
+
+.skill-bar .bar .project-manegment {
+    width: 50%;
+    animation: project-manegment 5s;
+}
+
+.skill-bar .bar .team-worker {
+    width: 85%;
+    animation: team-worker 5s;
+}
+
